@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    margin-top: -1.85vh;
+}
+
+#body-header{
+    height: 65vh;
+    opacity: 0.85;
+    background-image: url(image/background-image.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.horizontal-list{
+    
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin-top: 2vh;
+    margin-left: 0.741vw;
+    margin-right: 0.741vw;
+}
+
+.horizontal-list li a{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: rgb(246, 244, 244);
+    text-decoration: none;
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.horizontal-list li a:hover{
+    color: lightgray;
+    border-bottom: 1px solid rgb(167, 161, 161);
+}
+.text-center{
+    text-align: center;
+}
+
+.social-list li{
+    border-radius: 5rem;
+    opacity: .8;
+    display: inline-block;
+    margin-top: 3.7vh;
+    margin-right: 1.8vw;
+    margin-left: 1.8vw;
+}
+.social-list li:hover{
+    /* background-color: rgb(133, 170, 243); */
+     transform: scale(.85);
+    transition: 0.5s;
+    
+     /* box-shadow: 0px 0px 6px 4px rgba(142, 167, 236, 0.3);  */
+    
+}
+
+#linkedin:hover{
+    box-shadow: 0px 0px 6px 4px rgba(52, 55, 226, 0.8);
+}
+#github:hover{
+    box-shadow: 0px 0px 6px 4px rgba(248, 250, 251, 0.8);
+}
+#google:hover{
+    box-shadow: 0px 0px 6px 4px rgba(226, 93, 89, 0.8); 
+}
+#facebook:hover{
+    box-shadow: 0px 0px 6px 4px rgba(52, 55, 226, 0.8);
+}
+#whatsapp:hover{
+    box-shadow: 0px 0px 6px 4px rgba(52, 226, 81, 0.8);
+}
+
+
+
+header h1{
+    font-size:3rem;
+    font-family:sans-serif;
+    color:rgb(212, 240, 243);
+    text-align: center;
+    margin-top: 20vh;
+     
+    
+    
+}
+
+
+#about{
+ 
+    height: auto;
+    width: 100%;
+    position: relative;
+
+    margin-top: -17vh;
+    margin-bottom: 10px;
+}
+#my-image{
+    display: block;
+    height: 16rem;
+    width: 16rem;
+    margin:auto;
+     /* margin-top: -17vh */
+}
+
+#my-image img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 4px rgba(208, 208, 241, 0.7);
+    
+}
+#aboutp{
+    display: block;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 43, 44);
+    /* margin-top: -26vh; */ 
+      /* padding: 15rem;  */
+    text-align:center;
+    font-size: 1.3rem;
+    line-height: 35px;
+    padding-left: 8.5vw;
+    padding-right: 8.5vw;
+    
+
+}
+#skills{
+    
+    background-color: rgb(236, 237, 243);
+    margin-top: 10px;
+    height: auto;
+}
+
+.section-heading{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(37, 37, 223);
+    
+    
+}
+.section-heading h1{
+    padding: 3%;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+#skills-list{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* padding: 15vw; */
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+}
+.skill{
+     height: 40px; 
+    margin: 50px;
+    width: 300px;
+     background-color: rgb(214, 214, 224); 
+     border: 2px rgb(134, 138, 138) solid; 
+    /* font-size: 1.5rem; */
+     /* padding: 15px;  */
+    /* color: white; */
+     border-radius: 50px; 
+     box-shadow: 0.5px 1px rgb(62, 63, 66);
+    
+}
+.skill div{
+    height: 100%;
+    width: 75%;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 35px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.skill div span{
+    margin-top: 2px;
+    display: inline-block;
+     padding: 5px;
+     margin-left: 1rem;
+   
+     
+}
+
+
+
